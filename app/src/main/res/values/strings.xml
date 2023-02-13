@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppStreamingNetflix</string>
+    <string-array name="netflix_array">
+        <item>¿Qué es Netflix?</item>
+        <item>¿Cuánto cuesta Netflix?</item>
+        <item>¿Dónde puedo ver Netflix?</item>
+        <item>¿Qué puedo ver en Netflix?</item>
+        <item>¿Es Netflix bueno para los niños?</item>
+    </string-array>
+</resources>
