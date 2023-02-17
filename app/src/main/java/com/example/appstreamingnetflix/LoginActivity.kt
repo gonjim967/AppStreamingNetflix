@@ -19,9 +19,14 @@ class LoginActivity : AppCompatActivity() {
             startActivity(vistaMenu)
         }
 
-        binding.button.setOnClickListener{
+        binding.button3.setOnClickListener{
             val vistaRegistro = Intent(this, RegistroActivity::class.java)
             startActivity(vistaRegistro)
+        }
+
+        binding.imageView4.setOnClickListener{
+            val vueltaAtras = Intent(this, MainActivity::class.java)
+            startActivity(vueltaAtras)
         }
     }
 }

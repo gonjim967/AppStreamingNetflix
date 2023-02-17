@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">AppStreamingNetflix</string>
+    <string name="todas_las_peliculas_y_series_que_desees_y_mucho_m_s">Todas las peliculas y series que desees , y mucho más.</string>
     <string-array name="netflix_array">
         <item>¿Qué es Netflix?</item>
         <item>¿Cuánto cuesta Netflix?</item>
@@ -7,4 +8,6 @@
         <item>¿Qué puedo ver en Netflix?</item>
         <item>¿Es Netflix bueno para los niños?</item>
     </string-array>
+
+
 </resources>

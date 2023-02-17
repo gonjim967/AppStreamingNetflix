@@ -58,7 +58,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="150dp"
             android:layout_marginEnd="20dp"
-            android:text="Todas las peliculas y series que desees , y mucho más."
+            android:text="@string/todas_las_peliculas_y_series_que_desees_y_mucho_m_s"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="35dp" />
