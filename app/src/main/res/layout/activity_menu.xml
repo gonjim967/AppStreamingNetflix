@@ -4,15 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    android:background="@color/black"
+    tools:context=".MenuActivity" >
 
-    <VideoView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewN"
+                android:layout_width="wrap_content"
+                android:layout_height="540dp"
+                android:elevation="-1dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/casadepapel_portada" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="192dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="539dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="Peliculas"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/portada_peli1" />
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
