@@ -28,35 +28,132 @@
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/casadepapel_portada" />
 
-        </RelativeLayout>
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/n" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="540dp"
+                android:text="Peliculas"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="570dp"
+                android:background="@drawable/portada_peli1" />
+
+            <ImageButton
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="570dp"
+                android:background="@drawable/hppelicula" />
+
+            <ImageButton
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="570dp"
+                android:background="@drawable/peliterror" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="740dp"
+                android:text="Series"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="770dp"
+                android:background="@drawable/breakingbad" />
+
+            <ImageButton
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="770dp"
+                android:background="@drawable/elite" />
+
+            <ImageButton
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="770dp"
+                android:background="@drawable/strangerthings" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="940dp"
+                android:text="Anime"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="970dp"
+                android:background="@drawable/naruto" />
+
+            <ImageButton
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="970dp"
+                android:background="@drawable/kimetsu" />
+
+            <ImageButton
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="970dp"
+                android:background="@drawable/onepiece" />
+
+
+        </RelativeLayout>>
 
 
     </ScrollView>
-
-    <RelativeLayout
-        android:layout_width="411dp"
-        android:layout_height="192dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="539dp"
-        tools:ignore="MissingConstraints">
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="81dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:textSize="20dp"
-            android:text="Peliculas"
-            android:textColor="@color/white" />
-
-        <ImageButton
-            android:layout_width="125dp"
-            android:layout_height="150dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="40dp"
-            android:background="@drawable/portada_peli1" />
-    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
