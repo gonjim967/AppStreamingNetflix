@@ -12,7 +12,28 @@
         android:theme="@style/Theme.AppStreamingNetflix"
         tools:targetApi="31">
         <activity
-            android:name=".VideoActivity"
+            android:name=".StrangerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EliteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BreakingBadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnePieceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExpedienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HarryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpiderManActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NarutoActivity"
             android:exported="false" />
         <activity
             android:name=".RegistroActivity"

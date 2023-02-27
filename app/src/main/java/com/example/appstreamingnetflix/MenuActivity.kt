@@ -16,56 +16,48 @@ class MenuActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.spider.setOnClickListener{
-            peli_seleccionada="spiderman"
-            val vistaVideo = Intent(this, VideoActivity::class.java)
+            val vistaVideo = Intent(this, SpiderManActivity::class.java)
             startActivity(vistaVideo)
         }
 
         binding.harry.setOnClickListener{
-            peli_seleccionada="harrypotter"
-            val vistaVideo = Intent(this, VideoActivity::class.java)
+            val vistaVideo = Intent(this, HarryActivity::class.java)
             startActivity(vistaVideo)
         }
 
         binding.expediente.setOnClickListener{
-            peli_seleccionada="expediente"
-            val vistaVideo = Intent(this, VideoActivity::class.java)
+            val vistaVideo = Intent(this, ExpedienteActivity::class.java)
             startActivity(vistaVideo)
         }
 
         binding.breaking.setOnClickListener{
-            peli_seleccionada="breakingbad"
-            val vistaVideo = Intent(this, VideoActivity::class.java)
+            val vistaVideo = Intent(this, BreakingBadActivity::class.java)
             startActivity(vistaVideo)
         }
 
         binding.elite.setOnClickListener{
-            peli_seleccionada="elite"
-            val vistaVideo = Intent(this, VideoActivity::class.java)
+            val vistaVideo = Intent(this, EliteActivity::class.java)
             startActivity(vistaVideo)
         }
 
         binding.stranger.setOnClickListener{
-            peli_seleccionada="strangerthins"
-            val vistaVideo = Intent(this, VideoActivity::class.java)
+            val vistaVideo = Intent(this, StrangerActivity::class.java)
             startActivity(vistaVideo)
         }
 
         binding.naruto.setOnClickListener{
-            peli_seleccionada="naruto"
-            val vistaVideo = Intent(this, VideoActivity::class.java)
+
+            val vistaVideo = Intent(this, NarutoActivity::class.java)
             startActivity(vistaVideo)
         }
 
         binding.kimetsu.setOnClickListener{
-            peli_seleccionada="kimetsu"
-            val vistaVideo = Intent(this, VideoActivity::class.java)
+            val vistaVideo = Intent(this, KimetsuActivity::class.java)
             startActivity(vistaVideo)
         }
 
         binding.onepiece.setOnClickListener{
-            peli_seleccionada="onepiece"
-            val vistaVideo = Intent(this, VideoActivity::class.java)
+            val vistaVideo = Intent(this, OnePieceActivity::class.java)
             startActivity(vistaVideo)
         }
     }
