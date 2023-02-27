@@ -51,6 +51,7 @@
                 android:textSize="20dp" />
 
             <ImageButton
+                android:id="@+id/spider"
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:layout_alignParentStart="true"
@@ -61,6 +62,7 @@
                 android:background="@drawable/portada_peli1" />
 
             <ImageButton
+                android:id="@+id/harry"
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:layout_alignParentTop="true"
@@ -69,6 +71,7 @@
                 android:background="@drawable/hppelicula" />
 
             <ImageButton
+                android:id="@+id/expediente"
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:layout_alignParentTop="true"
@@ -88,6 +91,7 @@
                 android:textSize="20dp" />
 
             <ImageButton
+                android:id="@+id/breaking"
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:layout_alignParentStart="true"
@@ -98,6 +102,7 @@
                 android:background="@drawable/breakingbad" />
 
             <ImageButton
+                android:id="@+id/elite"
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:layout_alignParentTop="true"
@@ -106,6 +111,7 @@
                 android:background="@drawable/elite" />
 
             <ImageButton
+                android:id="@+id/stranger"
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:layout_alignParentTop="true"
@@ -124,6 +130,7 @@
                 android:textSize="20dp" />
 
             <ImageButton
+                android:id="@+id/naruto"
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:layout_alignParentStart="true"
@@ -134,6 +141,7 @@
                 android:background="@drawable/naruto" />
 
             <ImageButton
+                android:id="@+id/kimetsu"
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:layout_alignParentTop="true"
@@ -142,6 +150,7 @@
                 android:background="@drawable/kimetsu" />
 
             <ImageButton
+                android:id="@+id/onepiece"
                 android:layout_width="125dp"
                 android:layout_height="150dp"
                 android:layout_alignParentTop="true"
@@ -151,8 +160,6 @@
 
 
         </RelativeLayout>>
-
-
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
